@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sabores da Casa - Contato</title>
+</head>
+<body>
+
+    <header>
+        <p>Receitas simples para todos os dias</p>
+        <h1>Sabores da Casa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="bolo.html">Bolo</a></li>
+                <li><a href="massa.html">Massa</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>Fale conosco</p>
+        <h1>Contato</h1>
+        <p>Envie uma sugestão de receita, dúvida ou comentário.</p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="">Selecione</option>
+                    <option value="sugestao">Sugestão de receita</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="comentario">Comentário</option>
+                </select>
+
+                <fieldset>
+                    <legend>Categoria preferida:</legend>
+                    <input type="radio" id="doces" name="categoria" value="doces">
+                    <label for="doces">Doces</label>
+
+                    <input type="radio" id="salgados" name="categoria" value="salgados">
+                    <label for="salgados">Salgados</label>
+                </fieldset>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            </fieldset>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Quero receber novas receitas por e-mail.</label>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <h2>Sabores da Casa</h2>
+        <p>Receitas simples, práticas e cheias de sabor.</p>
+        <address>
+            <a href="mailto:contato@saboresdacasa.com.br">contato@saboresdacasa.com.br</a>
+            <p>São Paulo - SP</p>
+        </address>
+        <p>&copy; 2027 Sabores da Casa.</p>
+    </footer>
+
+</body>
+</html>
